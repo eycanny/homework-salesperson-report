@@ -36,3 +36,9 @@ for line in f:
 for i in range(len(salespeople)):
     #print a message saying how much each person sold
     print(f'{salespeople[i]} sold {melons_sold[i]} melons')
+
+# Improvement Ideas:
+    # Use a dictionary where key = name, values = sales amount, number of melons sold
+        #Solves issue of dealing with two lists where mismatches or uneven lists can happen
+    # Make it flexible with any text file by importing sys and using sys.argv
+    # Refine variable names to hint about what they are
